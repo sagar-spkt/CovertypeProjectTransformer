@@ -69,7 +69,3 @@ After running the training script, use the provided Jupyter Notebook `Report.ipy
 
 - HPO results will be saved in the specified output directory.
 - The notebook will help in visualizing performance metrics and generating insights from the saved results.
-
-## Support
-
-If you encounter any issues, please open a ticket in the repository's issue tracker.
