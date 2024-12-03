@@ -30,8 +30,8 @@ This project performs hyperparameter optimization (HPO) on the Covertype dataset
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
-    cd <project_root>
+    git clone https://github.com/sagar-spkt/CovertypeProjectTransformer.git
+    cd CovertypeProjectTransformer
     ```
 
 2. Install the required Python packages:
@@ -47,7 +47,7 @@ The training script, `train.py`, allows you to perform hyperparameter optimizati
 
 #### Example Usage:
 ```bash
-python train.py --n-trials 20 --output_dir results_dir
+python train.py --n-trials 20 --output_dir hpo_search
 ```
 
 #### Arguments:
@@ -73,13 +73,3 @@ After running the training script, use the provided Jupyter Notebook `Report.ipy
 ## Support
 
 If you encounter any issues, please open a ticket in the repository's issue tracker.
-
-## License
-
-This project is licensed under the MIT License. See `LICENSE` for more details.
-```
-
-### Key Notes:
-- Replace `<repository_url>` with the URL of your project's repository.
-- Add additional instructions or dependencies specific to your project if needed.
-- Ensure you include a `LICENSE` file in your project if mentioning a license.
