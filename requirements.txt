@@ -1,0 +1,12 @@
+accelerate==1.0.1
+datasets==3.0.2
+evaluate==0.4.3
+matplotlib
+notebook==7.2.2
+numpy==2.1.2
+pandas==2.2.3
+plotly==5.24.1
+scikit-learn==1.5.2
+tab-transformer-pytorch==0.3.0
+torch==2.5.0
+transformers==4.46.0
